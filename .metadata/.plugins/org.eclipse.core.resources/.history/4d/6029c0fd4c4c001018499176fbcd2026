@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body{
+display: flex;
+background-color: gray;
+align-items: center;
+}
+.forme{
+margin :auto;
+margin-top:15%;
+border: solid;
+width:55%;
+}
+</style>
+</head>
+<body >
+<div class="forme" >
+<form action="UserServlet" method="POST">
+<label for=nom > Nom :</label><br>
+        <input type="text" id="nom" name="nom"><br><br>
+<label for=email> Email :</label> <br>
+        <input type="text" id= "email" name="email"><br><br>
+        <input type = "submit" id="button" value= Enregistrer>        
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+package modelServlet;
+
+public class Servlet extends HttpServlet {
+
+	
+}
