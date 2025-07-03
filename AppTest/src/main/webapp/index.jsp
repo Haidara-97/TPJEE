@@ -6,20 +6,50 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
-body{
-display: flex;
-background-color: gray;
-align-items: center;
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  padding: 40px;
 }
-.forme{
-margin :auto;
-margin-top:15%;
-border: solid;
-width:30%;
-height: 100px;
-padding:7%;
-border-radius:5%;
+
+.forme {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
 }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#button {
+  width: 100%;
+  padding: 8px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #1b5fbf;
+}
+
 </style>
 </head>
 <body >

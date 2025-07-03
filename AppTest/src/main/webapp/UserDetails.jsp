@@ -6,6 +6,51 @@
 <head>
 <meta charset="UTF-8">
 <title>Détails Utilisateur</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    margin: 40px;
+    color: #333;
+  }
+
+  h1, h2 {
+    color: #2c3e50;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    background-color: #e6f0ff;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-left: 5px solid #2d89ef;
+    border-radius: 4px;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background-color: #2d89ef;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  a:hover {
+    background-color: #1b5fbf;
+  }
+</style>
+
 </head>
 <body>
 <%
